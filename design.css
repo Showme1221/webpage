@@ -1,0 +1,138 @@
+body {
+    background-image: url(shanewebbg.jpg);
+    background-size: 1358px;    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: none;
+    margin: 0px;
+    padding-top: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    color: white;
+    position: sticky;
+}
+.navbar a:hover{
+    background-color: rgb(94, 49, 49);
+}
+.navbar li{
+    float: left;
+}
+.navbar2{
+    padding-top: 60px;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 80px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    border-color: #fff;
+    margin-top: 100px;
+    font-size: x-large;
+    margin-left: 580px;
+}
+.profile img{
+    padding: 2px;
+    border-color: brown;
+    margin-top: 10px;
+}
+.info h2{
+    text-align: left;
+    padding-left: 2px;
+}
+.info ul{
+    color: black;
+    text-align: left;
+}
+.info table, th, td{
+    justify-content: center;
+    padding: 5px;
+    margin-left: 40px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 325px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50PX;
+    width: 900px;
+}
+.card-content h2{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    margin-bottom: 8px;
+}
+.card-content p{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    margin-bottom: 8px;
+}
+.profile{
+    background-color: white;
+    text-align: center;
+}
+.gallery{
+    background-color: #fff;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card  {
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.blog{
+    background-color: #fff;
+    text-align: center;
+}
+.blog h1{
+    background-color: black;
+    color: #fff;
+    font-size: xx-large;
+}
+.blog img{
+    height: 300px;
+    width: 300px;
+    justify-content: left;
+}
+.proj{
+    background-color: rgb(94, 49, 49);
+    color: #fff;
+    text-align: center;
+}
+
